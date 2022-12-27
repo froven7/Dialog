@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@+id/linearlayout"
+    android:layout_width="350dp"
+    android:layout_height="220dp"
+  android:layout_centerInParent="true"
+   android:background="@drawable/dialog_bac"></LinearLayout>
+
+    <ImageView
+        android:id="@+id/closeBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/close2"
+        android:layout_below="@id/linearlayout"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
